@@ -6,6 +6,7 @@ const empl = {
     department: 'Audit',
     birhYear: '2000',
 };
+
 fetch(URL, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
