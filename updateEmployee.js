@@ -6,11 +6,10 @@ const empl = {
     department: 'Audit',
     birhYear: '2000',
 };
-
 fetch(URL, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(empl)
+    body: JSON.stringify(empl),
 })
     .then((response) => response.json())
     .then((data) => console.log(data));
