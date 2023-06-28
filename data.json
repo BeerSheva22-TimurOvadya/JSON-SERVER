@@ -1,36 +1,25 @@
 {
   "employees": [
     {
-      "id": 123,
-      "name": "Vasya",
-      "gender": "male",
-      "department": "QA",
-      "salary": 10000,
-      "birthYear": 2000
-    },
-    {
-      "id": 124,
-      "name": "Asya",
-      "gender": "female",
-      "department": "Management",
-      "salary": 15000,
-      "birthYear": 1990
-    },
-    {
       "name": "Sara",
       "gender": "female",
       "salary": 10000,
       "department": "Development",
       "birhYear": "2000",
-      "id": 125
+      "userId": "admin",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "telran-user@co.il",
+      "password": "$2a$10$L1Xs0MpeTVgo/bwobtOg7OBd0Q/bF1uHLsmxaYYPwbrsN2uX1ISpW",
+      "id": "user"
     },
     {
-      "name": "Vova",
-      "gender": "male",
-      "salary": 20000,
-      "department": "Audit",
-      "birhYear": "2000",
-      "id": 127
+      "email": "telran-admin@co.il",
+      "password": "$2a$10$AXUZ8cKIVPjfL0qFumKVIePvtbwdoaW6wST9nZvdk3UUA6WEMV45S",
+      "id": "admin"
     }
   ]
 }
